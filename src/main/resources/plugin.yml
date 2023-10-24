@@ -1,0 +1,4 @@
+name: JoinAndLeavePlugin
+version: '${project.version}'
+main: me.florianschmid.joinandleaveplugin.JoinAndLeavePlugin
+api-version: '1.16'
