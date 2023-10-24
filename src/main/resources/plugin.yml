@@ -2,3 +2,12 @@ name: JoinAndLeavePlugin
 version: '${project.version}'
 main: me.florianschmid.joinandleaveplugin.JoinAndLeavePlugin
 api-version: '1.16'
+commands:
+  setJoinMessage:
+    description: "Sets the join message. %PLAYER% for player name."
+    usage: /<command>
+    permission: joinleaveplugin.setjoinmessage
+  setLeaveMessage:
+    description: "Sets the leave message. %PLAYER% for player name."
+    usage: /<command>
+    permission: joinleaveplugin.setleavemessage
